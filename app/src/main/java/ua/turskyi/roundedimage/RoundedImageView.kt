@@ -4,10 +4,9 @@ import android.content.Context
 import android.graphics.drawable.BitmapDrawable
 import android.graphics.drawable.Drawable
 import android.util.AttributeSet
-import android.widget.ImageView
 import androidx.core.graphics.drawable.RoundedBitmapDrawableFactory
 
-class RoundedImageView : ImageView {
+class RoundedImageView : androidx.appcompat.widget.AppCompatImageView {
 
     constructor(context: Context) : super(context)
 
